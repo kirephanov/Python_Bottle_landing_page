@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles/normalize.css">
+    <link rel="stylesheet" href="static/styles/style.css">
+    <link rel="icon" type="image/x-icon" href="static/images/icon-advertising-agency.ico">
+    <title>Advertising  agency</title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header">
+            <div class="wrapper">
+                <nav>
+                    <div class="nav">
+                        <div class="nav__item">
+                            <a href="#" class="nav__logo-link">
+                                <img src="static/images/logo-advertising-agency.svg" alt="Advertising  agency" class="nav__logo">
+                            </a>
+                        </div>
+                        <div class="nav__item">
+                            <div class="nav__links-container">
+                                <ul class="nav__links">
+                                    <li class="nav__links__item">
+                                        <a href="#about" class="nav__links-link">
+                                            About
+                                        </a>
+                                    </li>
+                                    <li class="nav__links__item">
+                                        <a href="#cases" class="nav__links-link">
+                                            Cases
+                                        </a>
+                                    </li>
+                                    <li class="nav__links__item">
+                                        <a href="#" class="nav__links-link">
+                                            Contacts
+                                        </a>
+                                    </li>
+                                </ul>
+                                <button class="nav__btn">Get started</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mobile menu -->
+                    <div class="mobile-menu">
+                        <div class="wrapper">
+                            <div class="mobile-nav" id="Mobile-nav">
+                                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                                    <img src="static/images/close-menu.svg" alt="Close" class="mobile-menu__btn">
+                                </a>
+                                <a href="#" class="mobile__link"><img src="static/images/logo-advertising-agency.svg" alt="Advertising agency" class="mobile__link-logo"></a>
+                                <a href="#about" class="mobile__link">About</a>
+                                <a href="#cases" class="mobile__link">Cases</a>
+                                <a href="#" class="mobile__link">Contacts</a>
+                            </div>
+                            <div class="mobile-btn__container">
+                                <span onclick="openNav()" class="mobile-btn">
+                                    <img src="static/images/mobile-menu.svg" alt="Open" class="mobile-menu__btn">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!-- Bunner -->
+                <div class="bunner">
+                    <div class="bunner__item bunner-info">
+                        <p class="bunner__title">
+                            Experimenting <br>with advertising
+                        </p>
+                        <p class="bunner__title__mobile">
+                            Experimenting with advertising
+                        </p>
+                        <p class="bunner__description">
+                            Consequat diam tempus, a laoreet parturient purus neque tortor.
+                        </p>
+                        <div class="bunner__btn-container">
+                            <button class="bunner__btn">Get started</button>
+                        </div>
+                    </div>
+                    <div class="bunner__item bunner-icon">
+                        <img src="static/images/Home/human.svg" alt="" class="bunner-icon__img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About us -->
+    <section id="about">
+        <div class="wrapper">
+            <div class="about-us">
+                <p class="block-title">
+                    About us
+                </p>
+                <div class="about-us__cards-container">
+                    <div class="about-us__cards">
+                        <div class="about-us__cards__item">
+                            <p class="about-us__cards__title">
+                                Save money
+                            </p>
+                            <p class="about-us__cards__description">
+                                Fusce ipsum mollis vitae, aliquam class auctor hac tortor, malesuada venenatis inceptos phasellus
+                            </p>
+                            <img src="static/images/Home/save-money.png" alt="" class="about-us__cards__img">
+                        </div>
+    
+                        <div class="about-us__cards__border"></div>
+    
+                        <div class="about-us__cards__item">
+                            <p class="about-us__cards__title">
+                                Business analytics
+                            </p>
+                            <p class="about-us__cards__description">
+                                Fusce ipsum mollis vitae, aliquam class auctor hac tortor, malesuada venenatis inceptos phasellus
+                            </p>
+                            <img src="static/images/Home/business-analytics.png" alt="" class="about-us__cards__img">
+                        </div>
+    
+                        <div class="about-us__cards__border"></div>
+                        
+                        <div class="about-us__cards__item">
+                            <p class="about-us__cards__title">
+                                Get gifts
+                            </p>
+                            <p class="about-us__cards__description">
+                                Fusce ipsum mollis vitae, aliquam class auctor hac tortor, malesuada venenatis inceptos phasellus
+                            </p>
+                            <img src="static/images/Home/gifts.png" alt="" class="about-us__cards__img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Cases -->
+    <section id="cases">
+        <div class="wrapper">
+            <div class="cases">
+                <p class="block-title">
+                    Cases
+                </p>
+                <div class="cases__cards">
+                    <div class="cases__cards__item">
+                        <p class="cases__cards__card-title">
+                            Case one
+                        </p>
+                        <p class="cases__cards__card-body">
+                            Convallis nec lorem pretium vitae porttitor facilisis, nec ut euismod dolor dapibus et ultrices pretium erat, ornare litora erat consequat, purus metus consectetur etiam quis taciti donec sem feugiat malesuada per, vivamus pharetra sapien potenti malesuada vitae euismod auctor.
+                        </p>
+                        <a href="#" class="cases__cards__card-link">
+                            Read more
+                        </a>
+                    </div>
+                    <div class="cases__cards__item">
+                        <p class="cases__cards__card-title">
+                            Case two
+                        </p>
+                        <p class="cases__cards__card-body">
+                            Convallis nec lorem pretium vitae porttitor facilisis, nec ut euismod dolor dapibus et ultrices pretium erat, ornare litora erat consequat, purus metus consectetur etiam quis taciti donec sem feugiat malesuada per, vivamus pharetra sapien potenti malesuada vitae euismod auctor.
+                        </p>
+                        <a href="#" class="cases__cards__card-link">
+                            Read more
+                        </a>
+                    </div>
+                    <div class="cases__cards__item">
+                        <p class="cases__cards__card-title">
+                            Case three
+                        </p>
+                        <p class="cases__cards__card-body">
+                            Convallis nec lorem pretium vitae porttitor facilisis, nec ut euismod dolor dapibus et ultrices pretium erat, ornare litora erat consequat, purus metus consectetur etiam quis taciti donec sem feugiat malesuada per, vivamus pharetra sapien potenti malesuada vitae euismod auctor.
+                        </p>
+                        <a href="#" class="cases__cards__card-link">
+                            Read more
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Сooperate with us -->
+    <section>
+        <div class="cooperate-bg">
+            <div class="wrapper">
+                <div class="cooperate">
+                    <p class="cooperate-title">
+                        Сooperate with us
+                    </p>
+                    <div class="cooperate__btn-container">
+                        <button class="cooperate__btn">Get started</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-bg">
+            <div class="wrapper">
+                <div class="footer">
+                    <p class="watermark">Made by <span><a href="https://github.com/kirephanov" target="_blank" class="watermark-link">Kirill Ephanov</a></span></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="static/js/mobile-menu.js"></script>
+</body>
+</html>
